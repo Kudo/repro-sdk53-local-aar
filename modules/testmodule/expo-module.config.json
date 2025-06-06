@@ -1,0 +1,15 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["TestmoduleModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.testmodule.TestmoduleModule"],
+     "gradleAarProjects": [
+       {
+         "name": "test-aar",
+         "aarFilePath": "android/libs/expo.modules.sqlite-15.2.11.aar"
+       }
+     ]
+  }
+}
